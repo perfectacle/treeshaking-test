@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/webpack/bin/webpack.js --optimize-minimize"
+    "build": "./node_modules/webpack/bin/webpack.js --optimize-minimize",
+    "build2": "./node_modules/webpack/bin/webpack.js --optimize-minimize --config webpack.mine.config.js"
   },
   "keywords": [],
   "author": "",
